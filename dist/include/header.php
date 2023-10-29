@@ -1,8 +1,9 @@
-<?php 
+<?php
 $current_page = $_SERVER['PHP_SELF'];
 $current_page = basename($current_page, ".php"); // Remove the extension if needed
 
-function currentPage($page){
+function currentPage($page)
+{
     global $current_page;
     return $current_page == $page ? 'js-active' : '';
 }
@@ -23,4 +24,12 @@ function currentPage($page){
         <a href="fofa.php" class="<?= currentPage("fofa"); ?>">線上佛法</a>
         <a href="news.php" class="<?= currentPage("news"); ?>">最新消息</a>
     </nav>
+    <div class="m_menu" id="m_menu">
+        <div class="group">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+        </div>
+    </div>
 </header>

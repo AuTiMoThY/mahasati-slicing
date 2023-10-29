@@ -1,0 +1,26 @@
+%pagination-dot {
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+        background-color: var(--sub-color);
+        border-radius: 50%;
+        margin: 8px;
+        opacity: 16%;
+        cursor: pointer;
+        transition: opacity 0.5s;
+
+        &.active {
+            opacity: 100%;
+        }
+
+        &:hover {
+            opacity: 100%;
+        }
+    }
+}

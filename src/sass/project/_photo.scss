@@ -1,0 +1,17 @@
+.photo {
+    flex: 1;
+    max-width: calc(100% / 2);
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}

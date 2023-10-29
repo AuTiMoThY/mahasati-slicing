@@ -1,0 +1,18 @@
+.page_main {
+    .banner {
+        @extend %pagination-dot;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 750px;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+    }
+}
+
+.swiper-wrapper {
+    padding-left: 0;
+    list-style: none;
+}

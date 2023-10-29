@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: "Noto Sans TC";
+}
+
+.font_title {
+    color: var(--text-main);
+    font-size: var(--font-title);
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    text-shadow: 0px 2px 2px rgba(62, 58, 57, 0.2);
+}
+
+.font_subtitle {
+    color: var(--text-sub);
+    font-size: var(--font-subtitle);
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    text-shadow: 0px 1px 1px rgba(62, 58, 57, 0.2);
+}
+
+.font_smalltitle {
+    color: var(--text-sub);
+    font-size: var(--font-body);
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+}
+
+.font_body {
+    color: var(--text-sub);
+    font-size: var(--font-body);
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    line-height: 1.8;
+    text-shadow: 0px 1px 1px rgba(62, 58, 57, 0.2);
+}
+
+.font_btn {
+    color: var(--text-sub);
+    font-size: var(--font-body);
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+}

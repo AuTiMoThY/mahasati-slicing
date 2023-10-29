@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* *****************************************/
+/*    css
+/*    V 20231024
+/*        by Rae
+/******************************************/
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "abstracts/variable/_variant";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/reboot";
+
+
+// ********** RESET START ********** //
+@import "generate/base/_reset";
+
+// ********** ROOT START ********** //
+@import "generate/base/root";
+
+// ********** FONT START ********** //
+@import "generate/base/font";
+
+// ********** COMMON START ********** //
+@import "generate/base/common";
+
+// ********** COMPONENT START ********** //
+@import "generate/components/btns";
+@import "project/pagination-dot";
+
+// ********** LAYOUT START ********** //
+@import "generate/layout/header";
+@import "generate/layout/footer";
+@import "generate/layout/container";
+
+// ********** PROJECT START ********** //
+@import "project/banner";
+
+// ********** ARTICLE START ********** //
+@import "project/article";
+
+// ********** CAROUSEL CONTAINER START ********** //
+@import "project/carousel";
+
+// ********** VIDEO SHARING START ********** //
+@import "project/video";
+
+// ********** PHOTOS START ********** //
+@import "project/photo";
+
+// ********** NEWS START ********** //
+@import "project/news";

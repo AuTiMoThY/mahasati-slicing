@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "flex",
+          "flex-direction",
+          "backdrop-filter",
+          "filter",
+          "text-shadow",
+          "transition",
+          "aspect-ratio",
+          "object-fit",
+          "translate",
+          "flex-wrap"
+        ]
+      }
+    ]
+  }
+}

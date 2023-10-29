@@ -1,0 +1,18 @@
+:root {
+    --spacing: 104px;
+    --spacing-half: calc(104px / 2);
+}
+
+:root {
+    --main-color: #dbdcdc;
+    --sub-color: #3e3a39;
+    --text-btn: #fff;
+    --text-main: #231815;
+    --text-sub: #3e3a39;
+}
+
+:root {
+    --font-title: 2rem;
+    --font-subtitle: #{px-to-rem(20)}rem;
+    --font-body: 1rem;
+}

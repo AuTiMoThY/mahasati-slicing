@@ -1,0 +1,56 @@
+%articleCommon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    @extend .page_section;
+
+    .article_content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .article_title {
+        @extend .font_title;
+    }
+
+    .article_subtitle {
+        @extend .font_subtitle;
+    }
+
+    .article_body {
+        @extend .font_body;
+    }
+}
+
+.article_preface {
+    @extend %articleCommon;
+    @extend .page_head;
+}
+
+.article_horizontal {
+    @extend %articleCommon;
+    @extend .page_section;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 56px;
+    width: 100%;
+
+    .article_body,
+    .article_subtitle {
+        text-align: left;
+    }
+
+    .video, .media {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 40%;
+    }
+}
+
+[class^="block_"] {
+    @extend %articleCommon;
+}

@@ -1,0 +1,27 @@
+%carousel-container {
+    .carousel-container {
+        width: 100%;
+    }
+
+    .carousel-container > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        aspect-ratio: 4/3;
+    }
+
+    .img_note {
+        // position: absolute;
+        // bottom: 0;
+        padding: 16px;
+        width: 100%;
+        background-color: var(--sub-color);
+        color: var(--text-btn);
+        @extend .font_btn;
+    }
+}
+
+.showcase_photo {
+    @extend %carousel-container;
+    @extend %pagination-dot;
+}

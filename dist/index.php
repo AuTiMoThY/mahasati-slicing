@@ -8,24 +8,26 @@ include "include/start.php";
     include "include/header.php";
     ?>
 
+    <!-- // ********** BANNER START ********** // -->
+    <section class="banner">
+        <div class="swiper banner-swiper">
+            <ul class="swiper-wrapper">
+                <li class="banner-slide swiper-slide">
+                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets\images\banner-80.jpg" alt="Company Logo" />
+                </li>
+                <li class="banner-slide swiper-slide">
+                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets\images\banner-80.jpg" alt="Company Logo" />
+                </li>
+
+            </ul>
+            <div class="pagination"></div>
+        </div>
+
+    </section>
+
+
     <main class="page_main">
 
-        <!-- // ********** BANNER START ********** // -->
-        <section class="banner">
-            <div class="swiper banner-swiper">
-                <ul class="swiper-wrapper">
-                    <li class="banner-slide swiper-slide">
-                        <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets\images\banner-80.jpg" alt="Company Logo" />
-                    </li>
-                    <li class="banner-slide swiper-slide">
-                        <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets\images\banner-80.jpg" alt="Company Logo" />
-                    </li>
-
-                </ul>
-                <div class="pagination"></div>
-            </div>
-
-        </section>
 
         <!-- // ********** PREFACE START ********** // -->
         <section class="article_preface container scroll-trigger">

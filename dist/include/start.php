@@ -8,4 +8,6 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script src="https://unpkg.com/vue@next"></script>
 </head>

@@ -33,7 +33,7 @@ include "include/start.php";
     include "include/footer.php";
     include "include/script_foot.php";
     ?>
-    <script src="assets/js/page/home.js"></script>
+
     <?php
     include "include/end.php";
     ?>

@@ -8,7 +8,7 @@ function currentPage($page)
     return $current_page == $page ? 'js-active' : '';
 }
 ?>
-<header class="site_header">
+<header class="site_header" id="siteHeader">
     <div class="logo">
         <a href="/">
             <img src="assets/images/logo_horizontal.svg" alt="Company Logo" />
@@ -24,7 +24,7 @@ function currentPage($page)
         <a href="fofa.php" class="<?= currentPage("fofa"); ?>">線上佛法</a>
         <a href="news.php" class="<?= currentPage("news"); ?>">最新消息</a>
     </nav>
-    <div class="m_menu" id="m_menu">
+    <div class="m_menu" id="m_menu" @click="toggleMenu">
         <div class="group">
             <div class="line1"></div>
             <div class="line2"></div>

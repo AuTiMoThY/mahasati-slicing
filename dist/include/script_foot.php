@@ -32,5 +32,48 @@
             }
         });
     });
+
+    // 得到 .page_main 的頂部位置
+    let mainTop = document.querySelector('.page_main').offsetTop;
+    console.log(mainTop);
+    ScrollTrigger.create({
+        // markers: true,
+        start: mainTop + " 20%",
+        end: "bottom 0",
+        toggleClass: {
+            className: 'site_header--sticky',
+                targets: '.site_header'
+        }
+    });
+
+
+    const {
+        ref,
+        createApp
+    } = Vue;
+    const siteHeaderSetup = {
+        setup() {
+            const search = ref('');
+            const isOpenMenu = ref(0);
+            const toggleMenu = () => {
+                if (!isOpenMenu.value) {
+                    isOpenMenu.value = 1;
+                    document.querySelector("body").classList.add("js-open-mobile-menu");
+                    // justplayUI.mmenu().open($("body"));
+                } else {
+                    isOpenMenu.value = 0;
+                    document.querySelector("body").classList.remove("js-open-mobile-menu");
+                    // justplayUI.mmenu().close($("body"));
+                }
+            }
+            return {
+                search,
+                isOpenMenu,
+                toggleMenu
+            }
+        }
+    }
+    const siteHeader = createApp(siteHeaderSetup);
+    siteHeader.mount("#siteHeader");
 </script>
 <script src="assets/js/script.js"></script>

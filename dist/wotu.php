@@ -14,6 +14,7 @@ include "include/start.php";
 
     <?php
     include "include/footer.php";
+    include "include/script_foot.php";
     ?>
 
     <?php

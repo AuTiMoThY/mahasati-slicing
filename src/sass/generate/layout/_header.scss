@@ -24,6 +24,9 @@
         justify-content: space-between;
         gap: 24px;
         @extend .font_btn;
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
         a {
             text-decoration: none;
             color: var(--text-btn);

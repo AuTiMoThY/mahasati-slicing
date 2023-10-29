@@ -1,6 +1,11 @@
 :root {
     --spacing: 104px;
     --spacing-half: calc(104px / 2);
+
+    @media screen and (max-width: 768px) {
+        --spacing: 56px;
+        --spacing-half: calc(56px / 2);
+    }
 }
 
 :root {
@@ -15,4 +20,10 @@
     --font-title: 2rem;
     --font-subtitle: #{px-to-rem(20)}rem;
     --font-body: 1rem;
+
+    @media screen and (max-width: 768px) {
+        --font-title: #{px-to-rem(20)}rem;
+        --font-subtitle: #{px-to-rem(16)}rem;
+        --font-body: #{px-to-rem(14)}rem;
+    }
 }

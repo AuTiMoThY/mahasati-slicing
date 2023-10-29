@@ -6,10 +6,18 @@
     text-align: center;
     @extend .page_section;
 
+    @media screen and (max-width: 768px) {
+        gap: 24px;
+    }
+
     .article_content {
         display: flex;
         flex-direction: column;
         gap: 16px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
     }
 
     .article_title {
@@ -44,10 +52,23 @@
         text-align: left;
     }
 
-    .video, .media {
+    .video,
+    .media {
         flex-grow: 0;
         flex-shrink: 0;
         flex-basis: 40%;
+
+        @media screen and (max-width: 768px) {
+            flex-grow: unset;
+            flex-shrink: unset;
+            flex-basis: unset;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 24px;
     }
 }
 

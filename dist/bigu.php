@@ -46,9 +46,9 @@ include "include/start.php";
                     <br />二是正念課程，一堂讓你回到欲界生活擁有強大正念，不再捲入暴飲暴食的漩渦
                 </p>
             </div>
-            <div class="event_01_img showcase_photo">
+            <div class="event_01_img showcase_photo" >
                 <figure class="carousel-container">
-                    <img src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
+                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
                     <figcaption class="img_note">清晨食氣</figcaption>
                 </figure>
                 <div class="pagination">

@@ -23,7 +23,7 @@ include "include/start.php";
                 </p>
             </div>
             <div class="photos scroll-target">
-                <img src="assets/images/vertical/佛印山官網視覺-178.jpg" alt="" class="photo">
+                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/vertical/佛印山官網視覺-178.jpg" alt="" class="photo">
             </div>
         </section>
 

@@ -17,7 +17,7 @@ include "include/start.php";
                 <li class="news_item">
                     <div class="article_horizontal">
                         <div class="media">
-                            <img src="" alt="">
+                            <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="" alt="">
                         </div>
                         <div class="article_content">
                             <h3 class="article_subtitle">最新消息標題</h3>

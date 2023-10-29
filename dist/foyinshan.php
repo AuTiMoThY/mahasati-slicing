@@ -25,7 +25,7 @@ include "include/start.php";
                 </p>
             </div>
             <div class="photos">
-                <img src="assets/images/logo_vertical_color.svg" alt="" class="photo">
+                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/logo_vertical_color.svg" alt="" class="photo">
             </div>
         </section>
 
@@ -42,7 +42,7 @@ include "include/start.php";
             </div>
             <div class="enviroment_img showcase_photo">
                 <figure class="carousel-container">
-                    <img src="assets/images/horizontal/佛印山官網視覺-267.jpg" alt="photo of enviroment" />
+                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-267.jpg" alt="photo of enviroment" />
                     <figcaption class="img_note">遠眺山景</figcaption>
                 </figure>
                 <div class="pagination">
@@ -68,7 +68,7 @@ include "include/start.php";
             </div>
             <div class="enviroment_img showcase_photo">
                 <figure class="carousel-container">
-                    <img src="assets/images/horizontal/佛印山官網視覺-267.jpg" alt="photo of enviroment" />
+                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-267.jpg" alt="photo of enviroment" />
                     <figcaption class="img_note">遠眺山景</figcaption>
                 </figure>
                 <div class="pagination">

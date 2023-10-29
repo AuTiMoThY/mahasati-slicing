@@ -24,7 +24,7 @@
             duration: 1.5, // 動畫持續時間為 1 秒
             stagger: 0.06,
             scrollTrigger: {
-                markers: true,
+                // markers: true,
                 trigger: el, // 當這個元素出現在視窗中時，開始動畫
                 start: 'top 75%', // 當觸發元素的頂部距視窗頂部有 75% 的距離時，開始動畫
                 // end: 'bottom 25%', // 當觸發元素的底部距視窗頂部有 25% 的距離時，結束動畫

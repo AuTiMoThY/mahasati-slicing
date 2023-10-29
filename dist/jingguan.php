@@ -26,8 +26,8 @@ include "include/start.php";
                 </p>
             </div>
             <div class="photos">
-                <img src="assets/images/vertical/佛印山官網視覺-118.jpg" alt="photo of event" class="photo">
-                <img src="assets/images/vertical/佛印山官網視覺-151.jpg" alt="photo of event" class="photo">
+                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/vertical/佛印山官網視覺-118.jpg" alt="photo of event" class="photo">
+                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/vertical/佛印山官網視覺-151.jpg" alt="photo of event" class="photo">
             </div>
         </section>
 
@@ -47,7 +47,7 @@ include "include/start.php";
             </div>
             <div class="event_02_img showcase_photo">
                 <figure class="carousel-container">
-                    <img src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
+                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
                     <figcaption class="img_note">念住禪</figcaption>
                 </figure>
                 <div class="pagination">

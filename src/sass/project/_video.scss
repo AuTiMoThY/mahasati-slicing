@@ -15,6 +15,12 @@
     gap: 40px;
     flex-wrap: nowrap;
     width: 100%;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 24px;
+    }
+
 }
 
 iframe {

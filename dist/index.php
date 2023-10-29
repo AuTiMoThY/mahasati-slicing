@@ -15,10 +15,10 @@ include "include/start.php";
             <div class="swiper banner-swiper">
                 <ul class="swiper-wrapper">
                     <li class="banner-slide swiper-slide">
-                        <img src="assets\images\banner-80.jpg" alt="Company Logo" />
+                        <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets\images\banner-80.jpg" alt="Company Logo" />
                     </li>
                     <li class="banner-slide swiper-slide">
-                        <img src="assets\images\banner-80.jpg" alt="Company Logo" />
+                        <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets\images\banner-80.jpg" alt="Company Logo" />
                     </li>
 
                 </ul>
@@ -46,7 +46,7 @@ include "include/start.php";
             <h2 class="article_title scroll-target">天地家園</h2>
             <div class="enviroment_img showcase_photo scroll-target">
                 <figure class="carousel-container">
-                    <img src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of enviroment" />
+                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of enviroment" />
                     <figcaption class="img_note">寒溪鳥瞰圖</figcaption>
                 </figure>
                 <div class="pagination">
@@ -111,8 +111,8 @@ include "include/start.php";
                 </p>
             </div>
             <div class="photos scroll-target">
-                <img src="assets/images/vertical/佛印山官網視覺-118.jpg" alt="photo of event" class="photo">
-                <img src="assets/images/vertical/佛印山官網視覺-151.jpg" alt="photo of event" class="photo">
+                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/vertical/佛印山官網視覺-118.jpg" alt="photo of event" class="photo">
+                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/vertical/佛印山官網視覺-151.jpg" alt="photo of event" class="photo">
             </div>
         </section>
 
@@ -131,7 +131,7 @@ include "include/start.php";
             </div>
             <div class="volunteer_img showcase_photo scroll-target">
                 <figure class="carousel-container">
-                    <img src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
+                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
                     <figcaption class="img_note">念住禪</figcaption>
                 </figure>
                 <div class="pagination">
@@ -141,7 +141,7 @@ include "include/start.php";
                     <span class="dot"></span>
                 </div>
             </div>
-            <div class="btns container scroll-target">
+            <div class="btns scroll-target">
                 <a href="" class="btn">我要護持 報名</a>
                 <a href="" class="btn">我要成為佛印志工 報名</a>
             </div>

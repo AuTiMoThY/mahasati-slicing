@@ -43,7 +43,7 @@ include "include/start.php";
 
         <!-- // ********** BLOCK_01 START ********** // -->
         <section class="block_1 container scroll-trigger">
-            <h2 class="article_title scroll-target">天地家園test</h2>
+            <h2 class="article_title scroll-target">天地家園</h2>
             <div class="enviroment_img showcase_photo scroll-target">
                 <figure class="carousel-container">
                     <img src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of enviroment" />

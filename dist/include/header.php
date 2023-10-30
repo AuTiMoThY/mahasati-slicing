@@ -10,7 +10,7 @@ function currentPage($page)
 ?>
 <header class="site_header" id="siteHeader">
     <div class="logo">
-        <a href="/">
+        <a href="/test2023/">
             <img src="assets/images/logo_horizontal.svg" alt="Company Logo" />
         </a>
     </div>
@@ -18,7 +18,7 @@ function currentPage($page)
         <a href="kaishan.php" class="<?= currentPage("kaishan"); ?>">開山禪師</a>
         <a href="foyinshan.php" class="<?= currentPage("foyinshan"); ?>">佛印山</a>
         <a href="tiandi.php" class="<?= currentPage("tiandi"); ?>">天地家園</a>
-        <a href="wotu.php" class="<?= currentPage("wotu"); ?>">沃土運動</a>
+        <!-- <a href="wotu.php" class="<?= currentPage("wotu"); ?>">沃土運動</a> -->
         <a href="bigu.php" class="<?= currentPage("bigu"); ?>">辟穀營</a>
         <a href="jingguan.php" class="<?= currentPage("jingguan"); ?>">境觀營</a>
         <a href="fofa.php" class="<?= currentPage("fofa"); ?>">線上佛法</a>

@@ -47,15 +47,29 @@ include "include/start.php";
         <section class="block_1 container scroll-trigger">
             <h2 class="article_title scroll-target">天地家園</h2>
             <div class="enviroment_img showcase_photo scroll-target">
-                <figure class="carousel-container">
-                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of enviroment" />
-                    <figcaption class="img_note">寒溪鳥瞰圖</figcaption>
-                </figure>
-                <div class="pagination">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                <div class="swiper img-swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <figure class="carousel-container">
+                                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of enviroment" />
+                                <figcaption class="img_note">寒溪鳥瞰圖</figcaption>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure class="carousel-container">
+                                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of enviroment" />
+                                <figcaption class="img_note">寒溪鳥瞰圖</figcaption>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure class="carousel-container">
+                                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of enviroment" />
+                                <figcaption class="img_note">寒溪鳥瞰圖</figcaption>
+                            </figure>
+                        </li>
+
+                    </ul>
+                    <div class="pagination"></div>
                 </div>
             </div>
         </section>
@@ -132,15 +146,35 @@ include "include/start.php";
                 </p>
             </div>
             <div class="volunteer_img showcase_photo scroll-target">
-                <figure class="carousel-container">
-                    <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
-                    <figcaption class="img_note">念住禪</figcaption>
-                </figure>
-                <div class="pagination">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                <div class="swiper img-swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <figure class="carousel-container">
+                                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
+                                <figcaption class="img_note">念住禪</figcaption>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure class="carousel-container">
+                                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
+                                <figcaption class="img_note">念住禪</figcaption>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure class="carousel-container">
+                                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
+                                <figcaption class="img_note">念住禪</figcaption>
+                            </figure>
+                        </li>
+                        <li class="swiper-slide">
+                            <figure class="carousel-container">
+                                <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
+                                <figcaption class="img_note">念住禪</figcaption>
+                            </figure>
+                        </li>
+
+                    </ul>
+                    <div class="pagination"></div>
                 </div>
             </div>
             <div class="btns scroll-target">

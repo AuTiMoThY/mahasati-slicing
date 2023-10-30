@@ -699,6 +699,8 @@ img {
   position: sticky;
   top: 0;
   z-index: 999;
+}
+.site_header--sticky.sticky-ani {
   translate: 0 -100%;
   -webkit-animation: showHeader 0.3s forwards;
   animation: showHeader 0.3s forwards;
@@ -948,6 +950,10 @@ img {
   object-fit: cover;
 }
 
+.swiper {
+  width: 100%;
+}
+
 .swiper-wrapper {
   padding-left: 0;
   list-style: none;
@@ -1135,5 +1141,9 @@ iframe {
 .news_list {
   list-style: none;
   padding: 0;
+  width: 100%;
+}
+
+.showcase_photo {
   width: 100%;
 }

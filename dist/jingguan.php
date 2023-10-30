@@ -11,11 +11,11 @@ include "include/start.php";
     <main class="page_main">
 
         <!-- // ********** PREFACE START ********** // -->
-        <section class="article_preface container">
-            <h2 class="article_title">境觀營</h2>
+        <section class="article_preface container scroll-trigger">
+            <h2 class="article_title scroll-target">境觀營</h2>
             <div class="article_content">
-                <h3 class="article_subtitle">為什麼要修行？</h3>
-                <p class="article_body">
+                <h3 class="article_subtitle scroll-target">為什麼要修行？</h3>
+                <p class="article_body scroll-target">
                     在家人 ： 停不下來、受大腦控制的生命 短暫的關機
                     <br />出家人 ： 修行解脫的次第
                     <br />
@@ -25,17 +25,17 @@ include "include/start.php";
                     <br />修行人參加境觀營得以清楚明瞭「原本佛道」修行解脫的法次法向，方向清楚，次第清楚，修行過程明白不再迷惘
                 </p>
             </div>
-            <div class="photos">
+            <div class="photos scroll-target">
                 <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/vertical/佛印山官網視覺-118.jpg" alt="photo of event" class="photo">
                 <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/vertical/佛印山官網視覺-151.jpg" alt="photo of event" class="photo">
             </div>
         </section>
 
         <!-- // ********** BLOCK_01 START ********** // -->
-        <section class="block_1 container">
+        <section class="block_1 container scroll-trigger">
             <div class="article_content">
-                <h3 class="article_subtitle">境觀營課程</h3>
-                <p class="article_body">
+                <h3 class="article_subtitle scroll-target">境觀營課程</h3>
+                <p class="article_body scroll-target">
                     依教奉行 ： 現世難得人身及佛法 奉行佛法所教
                     <br />實修 ： 安般念 念住禪 經行 四念處
                     <br />
@@ -45,7 +45,7 @@ include "include/start.php";
                     <br />實修當屬「身念處」修法為要，以「念住禪、經行」為主，「觀呼吸」為輔，精進用功，三年必有成就
                 </p>
             </div>
-            <div class="event_02_img showcase_photo">
+            <div class="event_02_img showcase_photo scroll-target">
                 <figure class="carousel-container">
                     <img onerror="this.onerror=null; this.src='assets/images/fallback-image.jpg'" src="assets/images/horizontal/佛印山官網視覺-14.jpg" alt="photo of event" />
                     <figcaption class="img_note">念住禪</figcaption>
@@ -60,12 +60,12 @@ include "include/start.php";
         </section>
 
         <!-- // ********** BLOCK_02 START ********** // -->
-        <section class="block_2 container">
+        <section class="block_2 container scroll-trigger">
             <div class="article_content">
-                <h3 class="article_subtitle">一段段生命的故事</h3>
-                <p class="article_body">實修的力量</p>
+                <h3 class="article_subtitle scroll-target">一段段生命的故事</h3>
+                <p class="article_body scroll-target">實修的力量</p>
             </div>
-            <div class="videos">
+            <div class="videos scroll-target">
                 <div class="video">
                     <iframe src="https://www.youtube.com/embed/HfPYnY0Va88?si=cTHIEn8d1X6FSriP" frameborder="0"
                         allowfullscreen></iframe>
@@ -79,7 +79,7 @@ include "include/start.php";
                         allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="btns">
+            <div class="btns scroll-target">
                 <a href="" class="btn">境觀營 報名</a>
             </div>
         </section>

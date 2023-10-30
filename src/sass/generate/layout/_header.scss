@@ -24,8 +24,11 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        translate: 0 -100%;
-        animation: showHeader 0.3s forwards;
+        
+        &.sticky-ani {
+            translate: 0 -100%;
+            animation: showHeader 0.3s forwards;
+        }
     }
 
 

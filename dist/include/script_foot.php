@@ -35,16 +35,24 @@
 
     // 得到 .page_main 的頂部位置
     let mainTop = document.querySelector('.page_main').offsetTop;
+    const headerElm = document.querySelector('.site_header');
     console.log(mainTop);
-    ScrollTrigger.create({
-        // markers: true,
-        start: mainTop + " 20%",
-        end: "bottom 0",
-        toggleClass: {
-            className: 'site_header--sticky',
-                targets: '.site_header'
+    if (mainTop == 90) {
+        headerElm.classList.add("site_header--sticky");
+    } else {
+        function toggleClasses() {
+            ["site_header--sticky", "sticky-ani"].forEach(myClass => headerElm.classList.toggle(myClass))
         }
-    });
+        ScrollTrigger.create({
+            // markers: true,
+            start: mainTop + " 20%",
+            end: "bottom 0",
+            onEnter: toggleClasses,
+            onLeaveBack: toggleClasses,
+            onLeave: toggleClasses,
+            onEnterBack: toggleClasses
+        });
+    }
 
 
     const {
